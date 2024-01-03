@@ -1,0 +1,120 @@
+
+  footer {
+    position: fixed;
+    height: 90px;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    column-gap: 13px;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .hashtag{
+    color: darkblue;
+  }
+  .date{
+    color: brown;
+  }
+  .thumbnail img{
+    width: 250px;
+    height: 150px;
+  
+  }
+  .caption img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+  }
+  button{
+    border-radius: 5px;
+  }
+  .chatbot-container {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  .chatbot-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+  }
+  .chatbot-message {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+  }
+  .applyshadow{
+    background-color: pink;
+   
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem pink,
+    0 0 0.8rem pink,
+    0 0 2.8rem pink,
+    inset 0 0 1.3rem pink; 
+  
+
+}
+.line{
+    text-align: center;
+    
+}
+
+
+.best{
+    
+    color:white;
+    margin:20px;
+    font-size: 20px;
+}
+.editprof{
+    padding:10px;
+    font-size: 12px;
+   
+}
+i{
+    margin-left:3px;
+}
+.modal-header{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    font-size: 15px;
+}
+
+.modal-dialog{
+    font-size: 15px;
+}
+table{
+    background-color: rgb(100, 95, 95);
+}
+th{
+    font-size: 18px;
+    color:rgb(83, 165, 42);
+}
+td{
+    font-size: 15px;
+}
+.ethum{
+    background-color: lightblue;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem skyblue,
+    0 0 0.8rem skyblue,
+    0 0 2.8rem skyblue,
+    inset 0 0 1.3rem skyblue; 
+}
